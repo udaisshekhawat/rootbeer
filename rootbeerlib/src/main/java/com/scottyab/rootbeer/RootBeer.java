@@ -263,7 +263,6 @@ public class RootBeer {
     public boolean checkForDangerousProps() {
 
         final Map<String, String> dangerousProps = new HashMap<>();
-        dangerousProps.put("ro.debuggable", "1");
         dangerousProps.put("ro.secure", "0");
 
         boolean result = false;
